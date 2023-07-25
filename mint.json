@@ -1,31 +1,31 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Molin VectorDB",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#22d3ee",
+    "light": "#22d3ee",
+    "dark": "#1E293B",
     "background": {
-      "dark": "#090014"
+      "dark": "#1E293B"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#09CEF0",
+      "to": "#05879D"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact us",
+      "url": "mailto:sales@molin.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Get Started",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
@@ -36,29 +36,33 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Projects",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "News",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.molin.ai/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart", "examples", "pricing"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Essentials [hide later]",
+      "pages": ["essentials/markdown", "essentials/code", "essentials/images"]
+    },
+    {
+      "group": "Guides",
+      "pages": ["guides/langchain", "guides/cloudflare"]
     },
     {
       "group": "API Documentation",
@@ -66,17 +70,12 @@
     },
     {
       "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "pages": ["api-reference/endpoint/get", "api-reference/endpoint/create", "api-reference/endpoint/update", "api-reference/endpoint/delete"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/molin_ai",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/company/molin-ai/"
   }
 }
